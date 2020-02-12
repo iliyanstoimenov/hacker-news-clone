@@ -1,0 +1,14 @@
+{
+  "name": "hacker-new-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --host=localhost --port=3010 --entry-file=./index.html --quiet  --mount=/:./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
